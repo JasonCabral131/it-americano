@@ -4,10 +4,10 @@
     "slug": "it-americano",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/images/coffee.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,30 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/assets/images/coffee.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "it.americano"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./src/assets/images/coffee.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./src/assets/Fonts/Gilroy-Bold.otf",
+            "./src/assets/Fonts/Gilroy-BoldItalic.otf",
+            "./src/assets/Fonts/Gilroy-Medium.otf",
+            "./src/assets/Fonts/Gilroy-MediumItalic.otf",
+            "./src/assets/Fonts/Gilroy-SemiBold.otf",
+            "./src/assets/Fonts/Gilroy-SemiBoldItalic.otf"
+          ]
+        }
+      ]
+    ],
+    "extra": {
     }
   }
 }
